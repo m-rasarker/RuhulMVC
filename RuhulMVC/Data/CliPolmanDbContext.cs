@@ -14,5 +14,6 @@ namespace RuhulMVC.Data
 
 
         public DbSet<UserRegistration> UserRegistrations { get; set; }
+        public DbSet<RuhulMVC.Models.Product> Product { get; set; } = default!;
     }
 }
